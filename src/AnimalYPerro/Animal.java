@@ -1,0 +1,34 @@
+package AnimalYPerro;
+
+public class Animal {
+
+	protected String nombre;
+	
+	
+	
+	public Animal(String nombre) {
+		super();
+		this.nombre = nombre;
+	}
+
+	
+
+
+	public String getNombre() {
+		return nombre;
+	}
+
+
+
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+
+
+
+	public void hacerSonido() {
+		System.out.println("El "+ this.nombre +" procede a realzar el sonido");
+	}
+}
